@@ -1,6 +1,6 @@
 import socket, threading, sys, json, os
     
-def get_download_path(): ## esto esta importado por 
+def get_download_path(): ## esto esta importado desde https://stackoverflow.com/a/48706260
     """Returns the default downloads path for linux or windows"""
     if os.name == 'nt':
         import winreg
